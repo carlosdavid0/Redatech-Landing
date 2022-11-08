@@ -9,6 +9,7 @@ import { firebaseConfig } from '../service/firebase'
 
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Head } from 'next/document'
 
 
 
@@ -49,12 +50,14 @@ export default function index() {
 
 
 
+
   }
 
   return (
 
     <>
       <div className="lg:max-w-[1124px] h-screen lg:mx-auto justify-center grid lg:grid-cols-2 grid-cols-1 mx-10 items-center gap-28">
+
         <main>
           <Image src={Logo} alt='Redatech logo' />
 
@@ -94,3 +97,5 @@ export default function index() {
 
   )
 }
+
+
