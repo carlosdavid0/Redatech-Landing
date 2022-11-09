@@ -12,6 +12,11 @@ module.exports = {
         orange: {
           500: '#FF6000',
           900: '#D45000'
+        },
+        redatech: {
+          500: '#04A1FC',
+          900: '#0077C8',
+          800: '#0088D4',
         }
       },
       backgroundImage: {

@@ -17,7 +17,7 @@ export default function Document() {
                 <meta name="author" content="Redatech" />
                 <meta name="keywords" content="Redatech, redação, enem, Redações nota 100" />
             </Head>
-            <body className='bg-black bg-app bg-cover bg-no-repeat'>
+            <body className='bg-black'>
                 <Main />
 
                 <NextScript />
