@@ -84,7 +84,7 @@ export default function index() {
           </form >
 
 
-          <p className='mt-4 text-gray-400 text-sm leading-relaxed'>Coloque seu melhor e-mail para entrarmos em contato assim que alguma atualização.</p>
+          <p className='mt-4 text-gray-400 text-sm leading-relaxed'>Coloque seu melhor e-mail para entrarmos em contato assim que tivermos alguma atualização.</p>
         </main >
 
         <Image src={Preview} alt='Homem conectando um cabo usb em um cerebro humano' priority className='hidden lg:block' />
