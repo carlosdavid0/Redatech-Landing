@@ -9,7 +9,6 @@ import { firebaseConfig } from '../service/firebase'
 
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { Head } from 'next/document'
 
 
 
@@ -25,8 +24,8 @@ export default function index() {
 
   return (
 
-    <>
-      <div className="lg:max-w-[1124px] h-screen lg:mx-auto  flex justify-center flex-col mx-10">
+    <div className='bg-black min-w-screen bg-app bg-no-repeat bg-cover '>
+      <div className=" lg:max-w-[1124px] h-screen lg:mx-auto  flex justify-center flex-col mx-10">
         <header className="flex items-center justify-between mt-10">
           <Image src={Logo} alt='Redatech logo' />
           <div className='flex gap-2 '>
@@ -62,7 +61,7 @@ export default function index() {
 
       </div >
       <ToastContainer autoClose={5000} hideProgressBar />
-    </>
+    </div>
 
   )
 }

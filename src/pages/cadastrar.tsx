@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../components/Button'
-import { Input } from '../components/Input'
+import { Input, Option, Select } from '../components/Input'
 import Logo from '../components/Logo'
 import { GoogleLogo, FacebookLogo } from "phosphor-react";
 
@@ -28,6 +28,24 @@ export default function Cadastrar() {
                                 <FacebookLogo color='#fff' size={30} />
                                 <span className='text-white text-md font-light'>Login com Facebook</span>
                             </div>
+                        </div>
+                        <div className="">
+                            <p className='text-gray-500 text-sm font-thin my-4'>Ou </p>
+                            <form action="">
+                                <div className='flex flex-col gap-4'>
+                                    <Input type='text' placeholder='Nome' />
+                                    <Input type='email' placeholder='Email' />
+                                    <Input type='password' placeholder='Senha' />
+                                    <Input type='password' placeholder='Confirmar senha' />
+                                    <Select label='Qual tipo de trabalho você desempenha?'>
+                                        <Option value='3'>Estudante</Option>
+                                        <Option value='4'>Professor</Option>
+                                        <Option value='5'>Pesquisador</Option>
+                                        <Option value='6'>Outro</Option>
+                                    </Select>
+                                    <Button tipo='primary' type='submit' title='Cadastrar' />
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
